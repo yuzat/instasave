@@ -10,7 +10,7 @@ npm install
 npx playwright install chromium
 ```
 
-## 1. Log in (do this once, and again whenever your session expires)
+## Usage
 
 ```bash
 npm run login
@@ -21,7 +21,7 @@ including any 2FA/checkpoint step. Once you're on your home feed, switch
 back to the terminal and press Enter. This saves your session to
 `auth.json`
 
-## 2. Scrape your saved links
+Then begin scraping saved links.
 
 ```bash
 node get-saved-links.js your_username > saved_links.txt

@@ -1,0 +1,13 @@
+{
+  "name": "ig-saved-links",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "login": "node login.js",
+    "scrape": "node get-saved-links.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
